@@ -1,15 +1,15 @@
 apply plugin: 'com.android.library'
 apply plugin: "maven-publish"
-group = 'com.github.c768909486'
+group = 'com.gitee.code1993'
 
 afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.c768909486'
+                groupId = 'com.gitee.code1993'
                 artifactId = 'AndroidAudioConverter'
-                version = '1.0.0'
+                version = '1.0.1'
             }
         }
     }
